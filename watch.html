@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="watch.css">
+    <title>Smart Watch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+</head>
+<body onload="timer()">
+    <header>
+        <img src="Colors/amazon.jpg" alt="amazon" class="logo">
+    </header>
+    <section id="article">
+        <div id="avatar">
+            <img id="blackWatch" src="Colors/blackWatch.jpg">
+            <p id="time"></p>
+            <img id="heart" src="Colors/heart.jpg" alt="HeartRate">
+            <span id="heart-rate">78</span>
+        </div>
+        <div id="info">
+            <h1 class="title">FitBit 19 - The Smartest Watch</h1>
+            <p class="description">1.78” AMOLED Display, 60 Hz Refresh Rate, 105 Fitness Modes, <br> 10 Days Battery & Heart Rate [Different Colors]</p>
+            <h3 class="section">Select Colors</h3>
+            <ul class="colors">
+                <li class="black" onclick="black()"></li>
+                <li class="red" onclick="red()"></li>
+                <li class="blue" onclick="blue()"></li>
+                <li class="pink" onclick="pink()"></li>
+                <li class="purple" onclick="purple()"></li>
+            </ul>
+            <h3 class="section">Features</h3>
+            <ul class="options">
+                <li><a class="time" onclick="timer()">Time</a></li>
+                <li><a class="heartRate" onclick="heartbeat()">HeartRate</a></li>
+            </ul>
+            <a href="https://www.amazon.in/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_in&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB0B6BPX5S9%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26isBuyBack%3D0%26isGift%3D0%26offeringID%3DEqAcqOgXPbYk8mWFZhTQHdzf3ImIgTZl5eoTrZJgf9nHY3QsRxeO%25252BymFafY5Bg8azB79UCMvw3LDZg2RCFCCeebGFS7FaCFJ1QES7gyqUm3NE6YCXXtSYcqDZ%25252F6DVATivFqzry4xu%25252BLW9LMFKuarkqMK0uWrQ%25252BgR%26quantity%3D1%26sessionID%3D258-0867612-3201547&pageId=amazon_checkout_in&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0"><button class="buy">BUY NOW</button></a>
+        </div>
+    </section>
+    <script src="watch.js"></script>
+</body>
+</html>
